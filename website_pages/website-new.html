@@ -7,9 +7,106 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <nav class="fixed-top bg-primary">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-3">
+            <div class="float-left">
+              <a href="profile.html" class="btn btn-block text-white">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </a>
+            </div>
+            <span class="hidden-sm-down visible">
+              <div class="navbar-text text-white">
+                <h5>Website</h5>
+              </div>
+              <div class="float-right">
+                <a href="website-new.html" class="btn btn-block text-white">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+              </div>
+            </span>
+          </div>
+
+          <div class="col offset-md-3 navbar-text text-nowrap text-white">
+            <h5>New Website</h5>
+          </div>
+
+          <div class="col-1">
+            <a href="profile.html" class="btn btn-block text-white">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar fixed-bottom bg-primary">
+      <div class="ml-auto">
+        <a href="../user_pages/profile.html" class="btn btn-block text-white">
+              <i class="fa fa-user" aria-hidden="true"></i>
+        </a>
+      </div>
+    </nav>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3 tfpad ">
+          <li class="d-flex flex-row mr-auto list-unstyled">
+            <a href="../page_pages/page-list.html" class="container-fluid btn btn-block text-left">Address Book App</a>
+            <div class="ml-auto">
+              <a href="website-edit.html" class="btn btn-block">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+              </a>
+            </div>
+          </li>
+          <li class="d-flex flex-row mr-auto list-unstyled">
+            <a href="../page_pages/page-list.html" class="container-fluid btn btn-block text-left">Blogger</a>
+            <div class="ml-auto">
+              <a href="website-edit.html" class="btn btn-block">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+              </a>
+            </div>
+          </li><li class="d-flex flex-row mr-auto list-unstyled">
+            <a href="../page_pages/page-list.html" class="container-fluid btn btn-block text-left">Blogging App</a>
+            <div class="ml-auto">
+              <a href="website-edit.html" class="btn btn-block">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+              </a>
+            </div>
+          </li><li class="d-flex flex-row mr-auto list-unstyled">
+            <a href="../page_pages/page-list.html" class="container-fluid btn btn-block text-left">Script Testing App</a>
+            <div class="ml-auto">
+              <a href="website-edit.html" class="btn btn-block">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+              </a>
+            </div>
+          </li>
+        </div>
+
+        <div class="vr"></div>
+
+        <div class="col tfpad">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="Name" placeholder="Name" name="name">
+            </div>
+            <label for="desc">Description:</label>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="desc"></textarea>
+            </div>
+          </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
